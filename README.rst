@@ -9,10 +9,11 @@ A software library that allows you to control a one wire device.
 Features
 ........
 
- * Asynchronous interface allowing client to processes other items concurrently
- * Blocking wait function provide for simple use
+ * Asynchronous interface with callback allowing client to processes other items concurrently
+ * Blocking wait function provide for simple use case
  * Uses single 1-bit port
- * Combinable task meaning it can share a core with other low preformance, minimally blocking tasks
+ * Combinable task - means it can share a logical core with other low-preformance, minimally blocking tasks
+ * Supports xCORE200 and XS1 devices (tested on xCORE200)
 
 Resource Usage
 ..............
